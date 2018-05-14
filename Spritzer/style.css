@@ -1,0 +1,148 @@
+body {
+  margin: 0px;
+  background-color: #9CAEF7;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.fruit_bar {
+    height: 20%;
+    width: 100%;
+    float: none;
+    background-color: green;
+    overflow-x: scroll;
+
+}
+
+.top_box{
+  width: 2000px;
+  height: 80%;
+  margin: 0px auto;
+  display: inline-block;
+}
+
+.fruit_item{
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.fruit_item img{
+  height: 90px;
+  width: 90px;
+  padding: 5px;
+}
+
+.beverage_body{
+  height: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid yellow;
+  position: relative;
+  z-index: 0;
+}
+
+.beverage{
+  width: 400px;
+  margin: 20px ;
+  border: 2px solid black;
+
+}
+
+.beverage img{
+  height: 100%;
+  width: 100%;
+
+}
+
+.z1{
+  z-index: 1;
+  height: auto;
+  width: auto;
+  /* border: 2px solid #c0ccff; */
+  position: absolute;
+  top: 125px;
+  left: 130px;
+}
+
+/* .z1 img{
+  align-self: center;
+} */
+
+.z2 {
+    z-index: 1;
+    height: auto;
+    width: auto;
+    /* border: 2px solid #c0ccff; */
+    position: absolute;
+    bottom: 150px;
+    left: 130px;
+}
+
+.beverage_info{
+  width: 60%;
+  justify-content: space-between;
+  margin: 20px ;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+
+.beverage_buttons{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 20%;
+  height: 200px;
+  width: 250px;
+  /* border: 2px solid white; */
+}
+
+button#cooler {
+  height: 50px;
+  width: 150px;
+  background-color: green;
+  align-self: center;
+  border-radius: 5px;
+  font-size: large;
+}
+button#spritzer {
+  height: 50px;
+  width: 150px;
+  background-color: orange;
+  align-self: center;
+  border-radius: 5px;
+  font-size: large;
+}
+
+button#boones {
+  height: 50px;
+  width: 150px;
+  background-color: red;
+  align-self: center;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.beverage_name{
+  padding: 5px;
+  margin-top: 10px;
+  align-self: center;
+}
+.beverage_price{
+  /* border: 2px solid red; */
+  margin: auto;
+}
+
+button#clear {
+  height: 20px;
+  width: 80px;
+  background-color: blue;
+  align-self: center;
+  border-radius: 5px;
+  /* font-size: ; */
+}
